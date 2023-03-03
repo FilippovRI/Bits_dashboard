@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="19698735-5028-4b8f-b74f-62e851bfe6ab">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыОбеспеченияПотребностей" category="Object">
+				<xr:TypeId>17a95b7f-5146-41af-912c-bf66f2ff9662</xr:TypeId>
+				<xr:ValueId>ceb88f4c-0cbe-4d0b-8629-83c6cf9bbf81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыОбеспеченияПотребностей" category="Ref">
+				<xr:TypeId>f3af328f-1433-4f92-940d-bd0e883552e2</xr:TypeId>
+				<xr:ValueId>38a0853e-0636-416f-bd71-1662ff5c7275</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыОбеспеченияПотребностей" category="Selection">
+				<xr:TypeId>6c93490c-4347-46e0-80a6-b9c0709c7592</xr:TypeId>
+				<xr:ValueId>fea492a9-7695-439d-a2b8-545f9f49f74a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыОбеспеченияПотребностей" category="List">
+				<xr:TypeId>22cf46d6-e51a-4891-bb64-abe4a0fcc031</xr:TypeId>
+				<xr:ValueId>1e3abd99-4978-4908-b536-5a6a5e3ca2b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыОбеспеченияПотребностей" category="Manager">
+				<xr:TypeId>93da7c8b-5f56-4371-b847-3a8f9d9f39b0</xr:TypeId>
+				<xr:ValueId>f40d57ae-0638-4b38-88b4-7f0fcb0ed46d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыОбеспеченияПотребностей</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

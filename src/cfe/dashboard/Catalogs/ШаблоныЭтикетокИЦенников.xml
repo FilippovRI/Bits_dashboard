@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="4f3ecbd7-a783-42ad-a178-32861b752a58">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныЭтикетокИЦенников" category="Object">
+				<xr:TypeId>ce63dceb-8421-4a65-bd4a-3f9475c44f8e</xr:TypeId>
+				<xr:ValueId>a450b156-796c-40ad-8a62-2c7a545c85c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныЭтикетокИЦенников" category="Ref">
+				<xr:TypeId>3b509bfc-6186-4525-a774-748744560575</xr:TypeId>
+				<xr:ValueId>104cf1f3-ade0-4dbe-8b4c-6939bcc0849d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныЭтикетокИЦенников" category="Selection">
+				<xr:TypeId>5cb2364d-8162-4c6f-a45d-ece35a2fe1d4</xr:TypeId>
+				<xr:ValueId>46c0e63e-4b75-4ec3-8d71-15459a9a5323</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныЭтикетокИЦенников" category="List">
+				<xr:TypeId>36197f66-7cd2-45cb-9116-f48109a8153b</xr:TypeId>
+				<xr:ValueId>dc5ff557-606a-4800-972f-c36c43e2a580</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныЭтикетокИЦенников" category="Manager">
+				<xr:TypeId>898a2519-76be-4c59-9778-863127b4d660</xr:TypeId>
+				<xr:ValueId>776e4cf8-0c84-4828-ad78-d0eca2fc5cf3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ШаблоныЭтикетокИЦенников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

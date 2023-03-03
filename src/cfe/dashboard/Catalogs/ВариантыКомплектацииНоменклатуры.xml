@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="2878a209-849e-40d0-95e7-a4ca6ee9e98b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВариантыКомплектацииНоменклатуры" category="Object">
+				<xr:TypeId>e10a30a9-0fca-46ce-99e8-e5f80ad74235</xr:TypeId>
+				<xr:ValueId>384778d2-98f3-4936-8027-903426948cdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВариантыКомплектацииНоменклатуры" category="Ref">
+				<xr:TypeId>833150ec-61a5-4d86-877c-99bffc4807df</xr:TypeId>
+				<xr:ValueId>dd9281fe-90aa-4065-a731-6b4d64cfddae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВариантыКомплектацииНоменклатуры" category="Selection">
+				<xr:TypeId>630b61fe-5975-463b-94db-b142f1989ffb</xr:TypeId>
+				<xr:ValueId>7bf03807-04bd-4e17-a45d-98f128d2aa12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВариантыКомплектацииНоменклатуры" category="List">
+				<xr:TypeId>ea4052fb-0a22-4262-af37-04447df7c66b</xr:TypeId>
+				<xr:ValueId>2c730814-e91a-4e6b-a2f6-5976f128e8b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВариантыКомплектацииНоменклатуры" category="Manager">
+				<xr:TypeId>2a2deebf-8fdd-4595-b3fb-365a6e6de4c8</xr:TypeId>
+				<xr:ValueId>c3b4f829-5be8-4d51-b285-2d4abcc5f23f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыКомплектацииНоменклатуры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

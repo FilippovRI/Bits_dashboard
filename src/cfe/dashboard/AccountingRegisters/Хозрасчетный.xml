@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AccountingRegister uuid="5c67b752-bf4c-4b15-b112-5d843702275a">
+		<InternalInfo>
+			<xr:GeneratedType name="AccountingRegisterRecord.Хозрасчетный" category="Record">
+				<xr:TypeId>1e0d043e-79fb-4521-9a6e-32f857e192cf</xr:TypeId>
+				<xr:ValueId>c5a1531d-2ca0-4dab-b1c9-c8e1a3851a42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterExtDimensions.Хозрасчетный" category="ExtDimensions">
+				<xr:TypeId>5bdade7b-e69b-415c-8cf3-b66392a180f6</xr:TypeId>
+				<xr:ValueId>6e1d36d0-9707-4075-85fe-bae179ffafe7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordSet.Хозрасчетный" category="RecordSet">
+				<xr:TypeId>97c26742-b747-48cb-a63b-6cfbce2a81ae</xr:TypeId>
+				<xr:ValueId>be2e0737-5e62-43b9-bbd3-dedf9c9635ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordKey.Хозрасчетный" category="RecordKey">
+				<xr:TypeId>2e490060-1463-43c9-be67-ad9b40dd7c74</xr:TypeId>
+				<xr:ValueId>59480096-a40b-40b1-a9ee-4f398e55b5f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterSelection.Хозрасчетный" category="Selection">
+				<xr:TypeId>53d356f4-d502-44ef-bf29-c2aac500931c</xr:TypeId>
+				<xr:ValueId>ba908097-3ddb-44cb-ba97-46a8644e2c14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterList.Хозрасчетный" category="List">
+				<xr:TypeId>3a5252e8-ea5a-4842-ab90-218ce007c6a3</xr:TypeId>
+				<xr:ValueId>cf381344-48de-4889-9b70-ab7ad4dd50de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterManager.Хозрасчетный" category="Manager">
+				<xr:TypeId>edc0b374-9176-4eff-9436-a93b8db9d286</xr:TypeId>
+				<xr:ValueId>e817a252-9398-44a8-a666-90067e96d475</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Хозрасчетный</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</AccountingRegister>
+</MetaDataObject>

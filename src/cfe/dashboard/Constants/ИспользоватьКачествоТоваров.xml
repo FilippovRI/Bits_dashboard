@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="d79e3297-9efa-4d40-8bd9-6a89284e9f51">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьКачествоТоваров" category="Manager">
+				<xr:TypeId>7dd8b2f3-3b2e-491b-9385-d788b43ac684</xr:TypeId>
+				<xr:ValueId>2db20365-4695-4723-806b-6d979d6c2a6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьКачествоТоваров" category="ValueManager">
+				<xr:TypeId>5a848aef-e3e7-4663-8fbc-b51b49f02619</xr:TypeId>
+				<xr:ValueId>80e5debf-8d32-405e-b018-81068bf87534</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьКачествоТоваров" category="ValueKey">
+				<xr:TypeId>80d162c1-d9c3-4972-bde1-058896ce8e32</xr:TypeId>
+				<xr:ValueId>fbd838a2-42bf-41b8-8430-a0692959d861</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьКачествоТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

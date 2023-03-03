@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<HTTPService uuid="1a3aab2f-3d5d-45a4-ab33-c7ed8f3164e2">
+		<Properties>
+			<Name>Dashboard</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передача информации в дашборд</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Передача информации в дашборд</Comment>
+			<RootURL>data_dashboard</RootURL>
+			<ReuseSessions>AutoUse</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<URLTemplate uuid="e60609e6-1447-414f-97c4-c2dd9469ec99">
+				<Properties>
+					<Name>orders</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Orders</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/{data}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="b7ac3572-6204-4497-a983-80c818f7235f">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ordersGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="9c098db8-30c2-4782-bfba-79eb0d203d5b">
+				<Properties>
+					<Name>ping</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ping</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/ping/*</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="64f68fff-8670-4925-8d59-5514efe519d1">
+						<Properties>
+							<Name>ping</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ping</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>pingping</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="0328bcf3-59a7-43e4-9bab-da4534fd44fd">
+				<Properties>
+					<Name>expenses_daily</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Expenses daily</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/expenses_daily/{data}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d0ef6726-cc44-4ceb-853e-d67c3314b800">
+						<Properties>
+							<Name>GET</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GET</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>expenses_dailyGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="f9699f36-8a40-4b19-aba3-82b83a670123">
+				<Properties>
+					<Name>expenses_monthly</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Expenses monthly</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/expenses_monthly/{data}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="9caa90cb-aeae-4ab2-879d-63293ecc56c2">
+						<Properties>
+							<Name>get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>expenses_monthlyget</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="2906d632-d963-4fc3-8dcf-7bc4f10bdc42">
+				<Properties>
+					<Name>income_daily</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Income daily</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/income_daily/{data}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="809c2739-354f-4f87-9656-cc5b6eb85785">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>income_dailyGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="bab931c4-9b08-42f6-b2a1-d45c68aa03ab">
+				<Properties>
+					<Name>income_monthly</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Income monthly</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/income_monthly/{data}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="214e9543-c37a-4131-9baa-a0be00100a72">
+						<Properties>
+							<Name>get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>income_monthlyget</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+		</ChildObjects>
+	</HTTPService>
+</MetaDataObject>
